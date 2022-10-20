@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="landing.css" />
+    <script
+      src="https://kit.fontawesome.com/8b964e4b33.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Fredoka+One&family=Playfair+Display:wght@700&family=Righteous&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <title>Chris's Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div id="nav-bar-container">
+        <div class="nav-links">
+          <a href="/projects">Projects</a>
+          <a href="/projects">Contact Me</a>
+          <a href="/projects">Resume</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="landing-container">
+        <div class="intro-container">
+          <div class="left" id="left">
+            <h2 data-aos="fade-left">Hello, My name is Chris.</h2>
+            <h3 data-aos="fade-up" data-aos-delay="500">
+              I'm a Front-End Developer
+            </h3>
+            <div id="buttons">
+              <button
+                data-aos="zoom-in-left"
+                data-aos-delay="800"
+                id="projects"
+                onclick="projectClick()"
+              >
+                Resume</button
+              ><button data-aos-delay="1100" data-aos="zoom-in-right">
+                Projects</button
+              ><a href="https://github.com/ChrisNelson8277/" target="_blank"
+                ><i class="fa-brands fa-square-github fa-bigger"></i></a
+              ><a
+                href="https://www.linkedin.com/in/chris-nelson-07378b1b9/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin fa-bigger"></i
+              ></a>
+            </div>
+          </div>
+          <div class="right"></div>
+        </div>
+      </div>
+      <div id="about-me" class="about-me-container">
+        <div class="about-header">
+          <h2 data-aos="fade-up-left">About Me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card" data-aos="zoom-in-left" data-aos-delay="500">
+            <div class="card-header">
+              <p>
+                Growing up, I always had an affinity for everything tech
+                related. Jailbreaking my first iPod, installing custom ROMs on
+                my android phones (and nearly bricking them) or modding my
+                gaming consoles were some of the things that developed my
+                problem solving skills. Today I'm enthralled by web development,
+                creating new experiences, implementing eye pleasing designs and
+                making them come to life with animation is what I love. To the
+                Right are some of the technologies I use
+              </p>
+            </div>
+          </div>
+          <div class="about-card" data-aos="zoom-in-right" data-aos-delay="800">
+            <div class="card-header">
+              <h3>Skills</h3>
+            </div>
+            <div class="skills-container">
+              <div class="skill-icons">
+                <div>
+                  <i class="devicon-html5-plain-wordmark colored"></i>
+                </div>
+                <div id="css">
+                  <i class="devicon-css3-plain-wordmark colored"></i>
+                </div>
+                <div id="javascript">
+                  <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div>
+                  <i class="devicon-react-original-wordmark colored"></i>
+                </div>
+                <div>
+                  <i class="devicon-sass-original colored"></i>
+                </div>
+                <div>
+                  <i class="devicon-nodejs-plain colored"></i>
+                </div>
+                <div>
+                  <i class="devicon-express-original"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="projects-container"
+        class="projects-container"
+        data-aos="fade-down"
+      >
+        <div class="about-header">
+          <h2 data-aos="fade-up-left">Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="projects-card" data-aos="flip-up" data-aos-delay="300">
+            <div class="proj-left">
+              <div><img src="/vinnysPc.png" /></div>
+            </div>
+            <div class="proj-right">
+              <div class="right-header">
+                <h5>Pizzeria Site</h5>
+              </div>
+              <div class="right-badges">
+                <p data-aos="flip-up" data-aos-delay="200">Css</p>
+                <p data-aos="flip-up" data-aos-delay="400">Html</p>
+                <p data-aos="flip-up" data-aos-delay="600">Javascript</p>
+                <p data-aos="flip-up" data-aos-delay="800">React</p>
+                <p data-aos="flip-up" data-aos-delay="1000">Express</p>
+                <p data-aos="flip-up" data-aos-delay="1200">NodeJs</p>
+                <p data-aos="flip-up" data-aos-delay="1400">Sass</p>
+                <p data-aos="flip-up" data-aos-delay="1600">Stripe</p>
+                <p data-aos="flip-up" data-aos-delay="1800">Responsive</p>
+                <p data-aos="flip-up" data-aos-delay="2000">UI/UX</p>
+              </div>
+              <div class="about-name" data-aos="flip-up" data-aos-delay="2100">
+                <h4 style="padding: 0 1rem">About</h4>
+              </div>
+              <div
+                class="about-section"
+                data-aos="flip-up"
+                data-aos-delay="2200"
+              >
+                <h5>
+                  You can perform a test checkout with Credit Card Number 4242
+                  4242 4242 4242
+                </h5>
+                <p>
+                  This is a restaurant website that I created with an online
+                  Checkout, it features an Express Back-End with a React
+                  Front-End. here are some of the following features
+                </p>
+                <ul>
+                  <li>Menu</li>
+                  <li>Stripe Checkout</li>
+                  <li>Cart</li>
+                  <li>User Auth</li>
+                  <li>Local storage</li>
+                </ul>
+              </div>
+              <div class="about-button">
+                <button><i class="fa-solid fa-eye"></i>Live</button
+                ><button>
+                  <a><i class="fa-brands fa-github-square"></i>Github</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="projects-card" data-aos="flip-right" data-aos-delay="700">
+            <div class="proj-left">
+              <div><img src="/liquidpc.png" /></div>
+            </div>
+            <div class="proj-right">
+              <div class="right-header">
+                <h5>E-commerce site</h5>
+              </div>
+              <div class="right-badges">
+                <p data-aos="flip-up" data-aos-delay="200">Css</p>
+                <p data-aos="flip-up" data-aos-delay="400">Html</p>
+                <p data-aos="flip-up" data-aos-delay="600">Javascript</p>
+                <p data-aos="flip-up" data-aos-delay="800">React</p>
+                <p data-aos="flip-up" data-aos-delay="1000">Express</p>
+                <p data-aos="flip-up" data-aos-delay="1200">NodeJs</p>
+                <p data-aos="flip-up" data-aos-delay="1400">Sass</p>
+                <p data-aos="flip-up" data-aos-delay="1600">Firebase</p>
+                <p data-aos="flip-up" data-aos-delay="1800">Responsive</p>
+                <p data-aos="flip-up" data-aos-delay="2000">UI/UX</p>
+              </div>
+              <div class="about-name" data-aos="flip-up" data-aos-delay="2100">
+                <h4
+                  data-aos="flip-up"
+                  data-aos-delay="2100"
+                  style="padding: 0 1rem"
+                >
+                  About
+                </h4>
+              </div>
+              <div class="about-section">
+                <p>
+                  This is an e-commerce website that i built, its is a react
+                  front-end with firebase handling the log in, and the database.
+                  It features an admin panel that allows the admin to add,edit
+                  and remove listings from the website.
+                </p>
+              </div>
+              <div class="about-button">
+                <button>
+                  <a
+                    href="https://graceful-kleicha-97660b.netlify.app/"
+                    target="_blank"
+                    ><i class="fa-solid fa-eye"></i>Live</a
+                  ></button
+                ><button>
+                  <a
+                    href="https://github.com/ChrisNelson8277/liquidation-site"
+                    target="_blank"
+                    ><i class="fa-brands fa-github-square"></i>Github</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="projects-card" data-aos="flip-down" data-aos-delay="300">
+            <div class="proj-left">
+              <img src="/cryptosearchsite.png" alt="" />
+            </div>
+            <div class="proj-right">
+              <div class="right-header">
+                <h5>Crypto Search</h5>
+              </div>
+              <div class="right-badges">
+                <p data-aos="flip-up" data-aos-delay="300">Css</p>
+                <p data-aos="flip-up" data-aos-delay="600">Html</p>
+                <p data-aos="flip-up" data-aos-delay="900">Javascript</p>
+                <p data-aos="flip-up" data-aos-delay="1200">React</p>
+                <p data-aos="flip-up" data-aos-delay="1500">Responsive</p>
+                <p data-aos="flip-up" data-aos-delay="1800">API</p>
+              </div>
+              <div class="about-name">
+                <h4 style="padding: 0 1rem">About</h4>
+              </div>
+              <div class="about-section">
+                <p>
+                  This is a Crypto search website I put together, I wanted to
+                  work more with apis and this is a project I created to better
+                  understand them. Created from scratch with react.
+                </p>
+              </div>
+              <div class="about-button">
+                <button><i class="fa-solid fa-eye"></i>Live</button
+                ><button>
+                  <i class="fa-brands fa-github-square"></i>Github
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="projects-card" data-aos="flip-left" data-aos-delay="700">
+            <div class="proj-left">
+              <img src="/portfoliosite.png" alt="" />
+            </div>
+            <div class="proj-right">
+              <div class="right-header">
+                <h5>Portfolio</h5>
+              </div>
+              <div class="right-badges">
+                <p data-aos="flip-up" data-aos-delay="300">Css</p>
+                <p data-aos="flip-up" data-aos-delay="600">Html</p>
+                <p data-aos="flip-up" data-aos-delay="900">Javascript</p>
+              </div>
+              <div class="about-name">
+                <h4 style="padding: 0 1rem">About</h4>
+              </div>
+              <div class="about-section">
+                <p>
+                  This is my Portfolio site, I tried to take a minimalistic
+                  approach to the UI design. Made with basic css, html,
+                  javascript.
+                </p>
+              </div>
+              <div class="about-button">
+                <button>
+                  <i
+                    class="fa-brands fa-github-square"
+                    style="font-size: 1.5rem"
+                  ></i
+                  >Github
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-container">
+          <div class="contact-header">
+            <h2 data-aos="fade-up">Contact</h2>
+          </div>
+          <div class="contact-grid" data-aos="flip-up">
+            <div class="contact-form">
+              <h4>Drop me an e-mail</h4>
+              <input name="name" placeholder="Name" />
+              <input name="email" placeholder="E-mail" />
+              <input name="number" placeholder="Phone Number" />
+              <textarea placeholder="How can I help you?"></textarea>
+              <button type="submit">Send</button>
+            </div>
+            <div class="contact-right">
+              <h3>Let's Make something great together.</h3>
+              <br />
+              <ul>
+                <li><i class="fa-solid fa-phone"></i>+1 614 940 1726</li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>Cjohnson8278@gmail.com
+                </li>
+                <li>
+                  <i class="fa-sharp fa-solid fa-location-dot"></i>Columbus,Oh
+                </li>
+                <li><i class="fa-brands fa-square-github"></i>Github</li>
+                <li><i class="fa-brands fa-linkedin"></i>LinkedIn</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      AOS.init({ duration: 1000 });
+    </script>
+  </body>
+</html>
