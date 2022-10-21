@@ -60,7 +60,7 @@ main{
     background-color: rgba(14, 14, 14, 0.911);
     top: 0vh;
     z-index: 19;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
