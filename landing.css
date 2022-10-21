@@ -81,6 +81,10 @@ main{
     margin: 0 1vw;
     color: white;
 }
+.nav-links a:hover{
+    transform: scale(1.1);
+    color: #66FF66;
+}
 a:link { 
     text-decoration: none; 
 }
@@ -88,7 +92,8 @@ a:visited {
     text-decoration: none; 
 }
 a:hover {
-     text-decoration: none; 
+     text-decoration: none;
+      
 }
 a:active {
 
