@@ -25,19 +25,28 @@
   </head>
   <body>
     <nav>
-      <div id="nav-bar-container">
-        <div class="nav-logo"><img src="/navBarLogo.png" alt="" /></div>
-        <div class="nav-links">
-          <a href="/projects">Projects</a>
-          <a href="/projects">Contact Me</a>
-          <a href="/projects">Resume</a>
+      <div class="nav-bar-real-container" id="nav-bar-real-container">
+        <div id="nav-bar-container">
+          <div class="nav-logo"><img src="/navBarLogo.png" alt="" /></div>
+          <div class="nav-links">
+            <a href="/projects">Projects</a>
+            <a href="/projects">Contact Me</a>
+            <a href="/projects">Resume</a>
+          </div>
+          <div class="toggle-container">
+            <a class="toggle-button" href="#" onclick="navClick()">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </a>
+          </div>
         </div>
-        <div class="toggle-container">
-          <a class="toggle-button" href="#">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </a>
+        <div class="nav-links2-container">
+          <div class="nav-links2" id="nav-hamburger">
+            <a href="/projects">Projects</a>
+            <a href="/projects">Contact Me</a>
+            <a href="/projects">Resume</a>
+          </div>
         </div>
       </div>
     </nav>
@@ -356,13 +365,16 @@
               <ul>
                 <li><i class="fa-solid fa-phone"></i></li>
                 <li>
-                  <i class="fa-solid fa-envelope"></i>Cjohnson8278@gmail.com
+                  <i class="fa-solid fa-envelope"></i>ChrisNelson8277@gmail.com
                 </li>
                 <li>
                   <i class="fa-sharp fa-solid fa-location-dot"></i>Columbus,Oh
                 </li>
-                <li><i class="fa-brands fa-square-github"></i>Github</li>
-                <li><i class="fa-brands fa-linkedin"></i>LinkedIn</li>
+                <a href="https://github.com/chrisnelson8277" target="_blank">
+                  <li><i class="fa-brands fa-square-github"></i>Github</li></a
+                ><a href="https://github.com/chrisnelson8277" target="_blank">
+                  <li><i class="fa-brands fa-linkedin"></i>LinkedIn</li></a
+                >
               </ul>
             </div>
           </div>

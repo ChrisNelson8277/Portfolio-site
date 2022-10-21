@@ -14,19 +14,23 @@ img{
 main{
     overflow: hidden;
 }
+#nav-bar-real-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3; 
+    transition: opacity 2s;
+}
 #nav-bar-container{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 7vh;
     background-color: rgba(14, 14, 14, 0.911);
     color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
     opacity: 1;
-    transition: opacity 2s;
-    z-index: 3; 
+    
+    padding: 1rem 0;
 }
 .fade{
     opacity: 0;
@@ -43,7 +47,34 @@ main{
     justify-content: space-between;
     margin-right: 5vw;
     z-index: 3;
+    position: relative;
     
+}
+.nav-links2-container{
+    position: relative;
+    transition: opacity 2s;
+    
+}
+.nav-links2{
+    width: 100%;
+    background-color: rgba(14, 14, 14, 0.911);
+    top: 0vh;
+    z-index: 19;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links2 a{
+    font-family: 'Fredoka One', cursive;
+    margin: 0;
+    padding: 1rem;
+    background-color: rgba(14, 14, 14, 0.911);
+    color: white;
+
+}
+.nav-links2 a:hover{
+    background-color: rgba(44, 44, 44, 0.911);
 }
 .nav-links a{
     font-family: 'Fredoka One', cursive;
@@ -464,6 +495,9 @@ textarea{
 .contact-right{
     padding: 0 1rem;
 }
+.contact-right a{
+    color: white;
+}
 .contact-right li{
     list-style: none;
     margin: 1vh;
@@ -504,14 +538,19 @@ textarea{
 }
 .toggle-container{
     display: none;
-    height: 100%;
     width: 100%;
     align-items: center;
     justify-content: flex-end;
     padding: 0 1rem;
 }
 /*media queries*/
+@media (min-width:851px){
+    #nav-hamburger{
+        display: none !important;
+    }
+}
 @media (max-width:850px){
+    
     .toggle-container{
         display: flex;
     }
