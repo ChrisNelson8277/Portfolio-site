@@ -26,10 +26,18 @@
   <body>
     <nav>
       <div id="nav-bar-container">
+        <div class="nav-logo"><img src="/navBarLogo.png" alt="" /></div>
         <div class="nav-links">
           <a href="/projects">Projects</a>
           <a href="/projects">Contact Me</a>
           <a href="/projects">Resume</a>
+        </div>
+        <div class="toggle-container">
+          <a class="toggle-button" href="#">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
         </div>
       </div>
     </nav>
@@ -69,6 +77,11 @@
             </div>
           </div>
           <div class="right"></div>
+          <div class="scroll-wrapper">
+            <a href="#about-me">
+              <i class="scroll fa-solid fa-chevron-down"></i>
+            </a>
+          </div>
         </div>
       </div>
       <div id="about-me" class="about-me-container">
@@ -120,13 +133,14 @@
               </div>
             </div>
           </div>
+          <div class="scroll-wrapper">
+            <a href="#projects-container">
+              <i class="scroll fa-solid fa-chevron-down"></i>
+            </a>
+          </div>
         </div>
       </div>
-      <div
-        id="projects-container"
-        class="projects-container"
-        data-aos="fade-down"
-      >
+      <div id="projects-container" class="projects-container">
         <div class="about-header">
           <h2 data-aos="fade-up-left">Projects</h2>
         </div>
