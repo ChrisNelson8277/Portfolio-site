@@ -247,7 +247,7 @@ button:hover{
 .about-card{
     background-color: #333131c6;
     border-radius: 10px;
-    height: 500px;
+    min-height: 500px;
     width: 90%;
     margin: auto;
     margin-top: 5%;
@@ -629,13 +629,18 @@ textarea{
     .intro-container{
         
     }
-    .intro-container h2{
+    .intro-container h1{
         font-size: 2rem;
         padding:0 1rem;
     }
-    .intro-container h3{
+    .intro-container h2{
         font-size: 1.7rem;
         padding: 0 1rem;
+    }
+    .card-header2 p{
+        font-size: 1.2rem;
+        padding: 0 1rem;
+        text-align: center;
     }
 }
 @media (max-width:1200px){
