@@ -127,16 +127,21 @@ a:active {
     display: grid;
     grid-template-columns: 100%;
 }
-.intro-container h2{
+.intro-container h1{
     font-size: 4rem;
     color: white;
     font-family: 'Fredoka One', cursive;
 }
-.intro-container h3{
+.intro-container h2{
     color: rgb(0, 255, 140);
     font-size: 3rem;
     font-family: 'Righteous', cursive;
     white-space: nowrap;
+}
+.github-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .left{
     margin: auto;
