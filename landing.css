@@ -249,8 +249,9 @@ button:hover{
     border-radius: 10px;
     min-height: 500px;
     width: 90%;
+    display: block;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 5%;
 }
 .card-header{
@@ -263,6 +264,7 @@ button:hover{
 .card-header2{
     font-family: 'Righteous', cursive;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     color: rgb(0, 255, 140);
     width: 100%;
