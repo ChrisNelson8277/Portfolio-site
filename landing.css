@@ -229,6 +229,7 @@ button:hover{
     background-size: cover  ;
     padding: 20vh 0;
     position: relative;
+    min-height: 75vh;
 }
 .about-header{
     display: flex;
